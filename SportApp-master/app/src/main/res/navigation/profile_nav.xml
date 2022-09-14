@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/profile_nav"
+    app:startDestination="@+id/fragment_profile_landing">
+
+    <fragment
+        android:id="@+id/fragment_profile_landing"
+        android:name= "com.example.cbr__fitness.fragments.ProfileFragmentLanding"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile_landing">
+
+        <action
+            android:id="@+id/action_profile_landing_fragment_to_edit_profile_fragment"
+            app:destination="@id/fragment_edit_profile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_edit_profile"
+        android:name= "com.example.cbr__fitness.fragments.EditProfile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_edit_profile">
+
+        <action
+            android:id="@+id/action_edit_profile_fragment_to_profile_landing_fragment"
+            app:destination="@id/fragment_profile_landing"
+            app:popUpTo="@id/fragment_profile_landing"
+            app:popUpToInclusive="true"/>
+    </fragment>
+</navigation>

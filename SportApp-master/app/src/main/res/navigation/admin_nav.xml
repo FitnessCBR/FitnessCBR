@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_nav"
+    app:startDestination="@id/fragment_admin_landing">
+
+    <fragment
+        android:id="@+id/fragment_admin_landing"
+        android:name="com.example.cbr__fitness.fragments.AdminLanding"
+        android:label="Admin"
+        tools:layout="@layout/fragment_admin_landing"> >
+
+    </fragment>
+
+</navigation>

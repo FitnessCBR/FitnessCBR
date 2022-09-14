@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="CBR_Fitness" author="Jobst-Julius Bartels" >
+<exp obj="Exercise" type="Concept" >
+  <desc>
+&#10;                </desc>
+</exp>
+<exp obj="Testing" type="Concept" >
+  <desc>
+      </desc>
+</exp>
+<exp obj="User" type="Concept" >
+  <desc>
+                                              </desc>
+</exp>
+<exp obj="weight" c="Exercise" type="AttributeDesc" >
+  <desc>
+              </desc>
+</exp>
+<exp obj="exType" c="Exercise" type="AttributeDesc" >
+  <desc>
+              </desc>
+</exp>
+<exp obj="bodyType" c="User" type="AttributeDesc" >
+  <desc>
+                              </desc>
+</exp>
+<exp obj="plan" c="User" type="AttributeDesc" >
+  <desc>
+                                              </desc>
+</exp>
+<exp obj="age" c="User" type="AttributeDesc" >
+  <desc>
+                                              </desc>
+</exp>
+<exp obj="workType" c="User" type="AttributeDesc" >
+  <desc>
+                                              </desc>
+</exp>
+<exp obj="breakTime" c="Exercise" type="AttributeDesc" >
+  <desc>
+              </desc>
+</exp>
+<exp obj="time" c="Exercise" type="AttributeDesc" >
+  <desc>
+              </desc>
+</exp>
+<exp obj="gender" c="User" type="AttributeDesc" >
+  <desc>
+                                              </desc>
+</exp>
+<exp obj="muscle" c="Exercise" type="AttributeDesc" >
+  <desc>
+              </desc>
+</exp>
+<exp obj="rep" c="Exercise" type="AttributeDesc" >
+  <desc>
+              </desc>
+</exp>
+<exp obj="duration" c="User" type="AttributeDesc" >
+  <desc>
+&#10;                                    </desc>
+</exp>
+<exp obj="rating" c="Exercise" type="AttributeDesc" >
+  <desc>
+              </desc>
+</exp>
+<exp obj="name" c="Exercise" type="AttributeDesc" >
+  <desc>
+              </desc>
+</exp>
+<exp obj="restriction" c="User" type="AttributeDesc" >
+  <desc>
+                              </desc>
+</exp>
+<exp obj="setNumber" c="Exercise" type="AttributeDesc" >
+  <desc>
+              </desc>
+</exp>
+<exp obj="Male" c="User" desc="gender" type="SimpleAttribute" >
+  <desc>
+                                              </desc>
+</exp>
+<exp obj="Long" c="User" desc="duration" type="SimpleAttribute" >
+  <desc>
+&#10;                            </desc>
+</exp>
+<exp obj="No" c="User" desc="restriction" type="SimpleAttribute" >
+  <desc>
+&#10;                            </desc>
+</exp>
+</Project>

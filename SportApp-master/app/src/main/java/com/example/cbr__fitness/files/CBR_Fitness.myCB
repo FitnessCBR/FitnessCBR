@@ -1,0 +1,2119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="CBR_Fitness" author="Jobst-Julius Bartels" >
+<instances name="User">
+  <instance id="User #19" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Ectomorph" />
+    <att name="plan" value="Mass Workout C and T" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #18" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Ectomorph" />
+    <att name="plan" value="Mass Workout B and B" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #17" >
+    <att name="duration" value="Long" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Female Strength Workout" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Pro" />
+    <att name="gender" value="Female" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #16" >
+    <att name="duration" value="Short" />
+    <att name="bodyType" value="Endomorph" />
+    <att name="plan" value="Female Senior FB Workout" />
+    <att name="age" value="Senior" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Female" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #15" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Female FB Workout" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Female" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #14" >
+    <att name="duration" value="Short" />
+    <att name="bodyType" value="Ectomorph" />
+    <att name="plan" value="Female Legs Workout" />
+    <att name="age" value="Teenager" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Female" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #12" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Beginner Arms Workout" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #11" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Beginner S Workout" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #10" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Beginner Legs Workout" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #31" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Restriction FB Plan" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Female" />
+    <att name="restriction" value="Yes" />
+  </instance>
+  <instance id="User #30" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Restriction LB Plan" />
+    <att name="age" value="Senior" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="Yes" />
+  </instance>
+  <instance id="User #29" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Restriction UB Plan" />
+    <att name="age" value="Senior" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="Yes" />
+  </instance>
+  <instance id="User #28" >
+    <att name="duration" value="Long" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Complete Advanced Plan" />
+    <att name="age" value="Teenager" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #27" >
+    <att name="duration" value="VeryLong" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Master Program" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Pro" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #26" >
+    <att name="duration" value="VeryLong" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Expert Training Routine" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Pro" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #25" >
+    <att name="duration" value="Long" />
+    <att name="bodyType" value="Endomorph" />
+    <att name="plan" value="Burn Workout Shoulders" />
+    <att name="age" value="Teenager" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #24" >
+    <att name="duration" value="Long" />
+    <att name="bodyType" value="Endomorph" />
+    <att name="plan" value="Burn Workout Legs" />
+    <att name="age" value="Teenager" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #0" >
+    <att name="duration" value="Short" />
+    <att name="bodyType" value="Ectomorph" />
+    <att name="plan" value="Beginners Routine" />
+    <att name="age" value="Teenager" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #23" >
+    <att name="duration" value="Long" />
+    <att name="bodyType" value="Endomorph" />
+    <att name="plan" value="Burn Workout C and T" />
+    <att name="age" value="Teenager" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #1" >
+    <att name="duration" value="Long" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Beginners Routine" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Female" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #22" >
+    <att name="duration" value="Long" />
+    <att name="bodyType" value="Endomorph" />
+    <att name="plan" value="Burn Workout B and B" />
+    <att name="age" value="Teenager" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #21" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Ectomorph" />
+    <att name="plan" value="Mass Workout Shoulders" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #20" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Ectomorph" />
+    <att name="plan" value="Mass Workout Legs" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Advanced" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #4" >
+    <att name="duration" value="Short" />
+    <att name="bodyType" value="Ectomorph" />
+    <att name="plan" value="Beginner FB Workout" />
+    <att name="age" value="Junior" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #5" >
+    <att name="duration" value="Short" />
+    <att name="bodyType" value="Endomorph" />
+    <att name="plan" value="Novice Quick Start" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Female" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #2" >
+    <att name="duration" value="Short" />
+    <att name="bodyType" value="Endomorph" />
+    <att name="plan" value="Novice Program" />
+    <att name="age" value="Senior" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #3" >
+    <att name="duration" value="Short" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Complete Beginner Plan" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #8" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Beginner Chest Workout" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #9" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Mesomorph" />
+    <att name="plan" value="Beginner Back Workout" />
+    <att name="age" value="Adult" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #6" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Ectomorph" />
+    <att name="plan" value="Beginner UB Workout" />
+    <att name="age" value="Teenager" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+  <instance id="User #7" >
+    <att name="duration" value="Middle" />
+    <att name="bodyType" value="Ectomorph" />
+    <att name="plan" value="Beginner LB Workout" />
+    <att name="age" value="Teenager" />
+    <att name="workType" value="Beginner" />
+    <att name="gender" value="Male" />
+    <att name="restriction" value="No" />
+  </instance>
+</instances>
+<instances name="Exercise">
+  <instance id="Exercise109" >
+    <att name="exType" value="Bodyweight" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="60" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Pull Ups" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise108" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Preacher Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise107" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Leg Curls" />
+    <att name="rating" value="0" />
+    <att name="time" value="6" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #61" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Smith Machine Shrug" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise117" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="60" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Glute Focused Hyperextensions" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #62" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="25" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Lying Dumbbell Tricep Extension" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise116" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="35" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Squats" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise115" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="35" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Lateral Raise" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #60" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="40" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Reverse Fly" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise114" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="50" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Barbell Shrugs" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise113" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Face Pull" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise112" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="20" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Bent Over Row" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise111" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="50" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Close Grip Pull Down" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise110" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Smith Machine Row" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise #69" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Concentration Pull" />
+    <att name="rating" value="0" />
+    <att name="time" value="7" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #67" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Rear Foot Elevated Squat" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #68" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="20" />
+    <att name="rep" value="8" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="One Arm Dumbbell Row" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise #65" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="35" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Standing Cable Overhead" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #66" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Step Up" />
+    <att name="rating" value="0" />
+    <att name="time" value="9" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #63" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="20" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Hammer Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #64" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Preacher Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #49" >
+    <att name="exType" value="Bodyweight" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="60" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Pull Ups" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise90" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="55" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Flat Bench Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise119" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Seated Dumbbell Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise118" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="5" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Bench Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise #50" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Smith Machine Row" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise128" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="60" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Tricep Dip" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #51" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="50" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Close Grip Pull Down" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise99" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Rear Foot Elevated Squat" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise127" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Lateral Raise" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise126" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Shoulder Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise125" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Goble Squat" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise124" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="45" />
+    <att name="rep" value="20" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Straight Arm Lat Pull Down" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise123" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="45" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Rear Lunge" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise122" >
+    <att name="exType" value="Bodyweight" />
+    <att name="muscle" value="Abs" />
+    <att name="weight" value="60" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Crunches" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise121" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Hip Thrust" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise #58" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Face Pull" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise92" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Seated Cable Row" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise120" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="10" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Barbell Wrist Curls" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #59" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="35" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Lateral Raise" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise91" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #56" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="60" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Glute Focused Hyperextensions" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise94" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Concentration Pull" />
+    <att name="rating" value="0" />
+    <att name="time" value="7" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #57" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Seated Dumbbell Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise93" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Stiff Leg Deadlift" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #54" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Hip Thrust" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise96" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="15" />
+    <att name="rep" value="20" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Seated Calf Raise" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #55" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="45" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Rear Lunge" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise95" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="60" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Lying Leg Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #52" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="45" />
+    <att name="rep" value="20" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Straight Arm Lat Pull Down" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise98" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="45" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Rows" />
+    <att name="rating" value="0" />
+    <att name="time" value="6" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #53" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Goble Squat" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise97" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="50" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Leg Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #38" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Shoulder Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise #39" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Lateral Raise" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise129" >
+    <att name="exType" value="Bodyweight" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="60" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Chest Dip" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise139" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Shoulder Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #40" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="60" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Tricep Dip" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise138" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Barbell Bench Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise137" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="25" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Standing Dumbbell Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise136" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="80" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Leg Extension" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise135" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="20" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise134" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Incline Bench Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise133" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Glute Kickback" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise132" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Fly" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise #47" >
+    <att name="exType" value="Bodyweight" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="60" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Chest Dip" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise131" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="60" />
+    <att name="rep" value="10" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Chest Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise #48" >
+    <att name="exType" value="Bodyweight" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="60" />
+    <att name="rep" value="20" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Push Up" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise130" >
+    <att name="exType" value="Bodyweight" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="60" />
+    <att name="rep" value="20" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Push Up" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #45" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="60" />
+    <att name="rep" value="10" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Chest Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise #46" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Fly" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise #43" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Glute Kickback" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #44" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Incline Bench Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise #41" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="20" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #42" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="80" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Leg Extension" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #29" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="25" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Standing Dumbbell Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #27" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Barbell Bench Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #28" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Shoulder Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise149" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="8" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Upright Row" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise148" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="25" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Tricep Extension" />
+    <att name="rating" value="0" />
+    <att name="time" value="4" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise147" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="40" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Chest Fly" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise146" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Bench Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise145" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Lat Pull Down" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise144" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="15" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Row" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise143" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="30" />
+    <att name="rep" value="8" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="EZ Bar Skullcrusher" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #36" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="15" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Row" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise142" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="40" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Crossover" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #37" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Lat Pull Down" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise141" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="50" />
+    <att name="rep" value="8" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Incline Dumbbell Bench Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #34" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Bench Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise140" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="30" />
+    <att name="rep" value="8" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Two Arm Seated Dumbbell" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #35" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="40" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Chest Fly" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #32" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="25" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Tricep Extension" />
+    <att name="rating" value="0" />
+    <att name="time" value="4" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #33" >
+    <att name="exType" value="Bodyweight" />
+    <att name="muscle" value="Abs" />
+    <att name="weight" value="60" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Sit Ups" />
+    <att name="rating" value="0" />
+    <att name="time" value="4" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #30" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="20" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Tricep Pushdowns" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #31" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Deadlift" />
+    <att name="rating" value="0" />
+    <att name="time" value="4" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #18" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="15" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Hyperextensions" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise #19" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Abs" />
+    <att name="weight" value="20" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Crunches" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise #16" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="30" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Tricep Extensions" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise #17" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="20" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Straight Bar" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise #9" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Standing Calf Raise" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #8" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="60" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Back Extension" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #7" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="15" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Barbell Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #6" >
+    <att name="exType" value="Bodyweight" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="25" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Pushdown" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #5" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="35" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Shrug" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #4" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="55" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Flat Bench Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise155" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="8" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Seated Arnold Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #3" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise154" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Deadlift" />
+    <att name="rating" value="0" />
+    <att name="time" value="4" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #2" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Seated Cable Row" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #25" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Stiff Leg Deadlift" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise153" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="6" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Seated Barbell Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #1" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="60" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Lying Leg Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #26" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="15" />
+    <att name="rep" value="20" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Seated Calf Raise" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise152" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="20" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Tricep Pushdowns" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #0" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="50" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Leg Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #23" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="45" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Rows" />
+    <att name="rating" value="0" />
+    <att name="time" value="6" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise151" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="15" />
+    <att name="rep" value="30" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Seated Barbell Wrist Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #24" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="25" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Overhead Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="6" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise150" >
+    <att name="exType" value="Bodyweight" />
+    <att name="muscle" value="Abs" />
+    <att name="weight" value="60" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Sit Ups" />
+    <att name="rating" value="0" />
+    <att name="time" value="4" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #21" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="20" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Calf Raises" />
+    <att name="rating" value="0" />
+    <att name="time" value="6" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #22" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="40" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Pull Downs" />
+    <att name="rating" value="0" />
+    <att name="time" value="6" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #20" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="30" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Leg Curls" />
+    <att name="rating" value="0" />
+    <att name="time" value="6" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #14" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="20" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Bent Over Row" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise #15" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="50" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Barbell Shrugs" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise #12" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="35" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Squats" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise #13" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="5" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Bench Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise #10" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="10" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Barbell Wrist Curls" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #11" >
+    <att name="exType" value="Bodyweight" />
+    <att name="muscle" value="Abs" />
+    <att name="weight" value="60" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Crunches" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise89" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="35" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Shrug" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise88" >
+    <att name="exType" value="Bodyweight" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="25" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Pushdown" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise81" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="20" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Straight Bar" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise80" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="30" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Tricep Extensions" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise83" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="25" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Lying Dumbbell Tricep Extension" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise82" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="50" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Smith Machine Shrug" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise85" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="60" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Back Extension" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise84" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Standing Calf Raise" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise87" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="15" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Barbell Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="3" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise86" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="40" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Machine Reverse Fly" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #72" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="30" />
+    <att name="rep" value="8" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Two Arm Seated Dumbbell" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise78" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="15" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Hyperextensions" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise106" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="20" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Hammer Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #73" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="50" />
+    <att name="rep" value="8" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Incline Dumbbell Bench Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise105" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="30" />
+    <att name="rep" value="15" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Dumbbell Step Up" />
+    <att name="rating" value="0" />
+    <att name="time" value="9" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #70" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Chest" />
+    <att name="weight" value="40" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Crossover" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise104" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Back" />
+    <att name="weight" value="40" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Pull Downs" />
+    <att name="rating" value="0" />
+    <att name="time" value="6" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #71" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="30" />
+    <att name="rep" value="8" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="EZ Bar Skullcrusher" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise79" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Abs" />
+    <att name="weight" value="20" />
+    <att name="rep" value="5" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Cable Crunches" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="5" />
+  </instance>
+  <instance id="Exercise103" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Tricep" />
+    <att name="weight" value="35" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Standing Cable Overhead" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise102" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Legs" />
+    <att name="weight" value="20" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Calf Raises" />
+    <att name="rating" value="0" />
+    <att name="time" value="6" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise101" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="20" />
+    <att name="rep" value="8" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="One Arm Dumbbell Row" />
+    <att name="rating" value="0" />
+    <att name="time" value="10" />
+    <att name="setNumber" value="4" />
+  </instance>
+  <instance id="Exercise100" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="25" />
+    <att name="rep" value="12" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Overhead Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="6" />
+    <att name="setNumber" value="2" />
+  </instance>
+  <instance id="Exercise #76" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="8" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Upright Row" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #77" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Bicep" />
+    <att name="weight" value="15" />
+    <att name="rep" value="30" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Seated Barbell Wrist Curl" />
+    <att name="rating" value="0" />
+    <att name="time" value="5" />
+    <att name="setNumber" value="1" />
+  </instance>
+  <instance id="Exercise #74" >
+    <att name="exType" value="Machine" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="6" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Seated Barbell Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+  <instance id="Exercise #75" >
+    <att name="exType" value="Free" />
+    <att name="muscle" value="Shoulders" />
+    <att name="weight" value="30" />
+    <att name="rep" value="8" />
+    <att name="breakTime" value="30" />
+    <att name="name" value="Seated Arnold Press" />
+    <att name="rating" value="0" />
+    <att name="time" value="8" />
+    <att name="setNumber" value="3" />
+  </instance>
+</instances>
+<instances name="Testing">
+</instances>
+<cb name="exercise_caseBase">
+     <case name="Exercise #18" />
+     <case name="Exercise #19" />
+     <case name="Exercise #16" />
+     <case name="Exercise #17" />
+     <case name="Exercise #61" />
+     <case name="Exercise #62" />
+     <case name="Exercise #9" />
+     <case name="Exercise #8" />
+     <case name="Exercise #60" />
+     <case name="Exercise #7" />
+     <case name="Exercise #6" />
+     <case name="Exercise #5" />
+     <case name="Exercise #4" />
+     <case name="Exercise #3" />
+     <case name="Exercise #2" />
+     <case name="Exercise #25" />
+     <case name="Exercise #69" />
+     <case name="Exercise #1" />
+     <case name="Exercise #26" />
+     <case name="Exercise #0" />
+     <case name="Exercise #23" />
+     <case name="Exercise #67" />
+     <case name="Exercise #24" />
+     <case name="Exercise #68" />
+     <case name="Exercise #21" />
+     <case name="Exercise #65" />
+     <case name="Exercise #22" />
+     <case name="Exercise #66" />
+     <case name="Exercise #63" />
+     <case name="Exercise #20" />
+     <case name="Exercise #64" />
+     <case name="Exercise #49" />
+     <case name="Exercise #50" />
+     <case name="Exercise #51" />
+     <case name="Exercise #14" />
+     <case name="Exercise #58" />
+     <case name="Exercise #15" />
+     <case name="Exercise #59" />
+     <case name="Exercise #12" />
+     <case name="Exercise #56" />
+     <case name="Exercise #13" />
+     <case name="Exercise #57" />
+     <case name="Exercise #10" />
+     <case name="Exercise #54" />
+     <case name="Exercise #11" />
+     <case name="Exercise #55" />
+     <case name="Exercise #52" />
+     <case name="Exercise #53" />
+     <case name="Exercise #38" />
+     <case name="Exercise #39" />
+     <case name="Exercise #40" />
+     <case name="Exercise #47" />
+     <case name="Exercise #48" />
+     <case name="Exercise #45" />
+     <case name="Exercise #46" />
+     <case name="Exercise #43" />
+     <case name="Exercise #44" />
+     <case name="Exercise #41" />
+     <case name="Exercise #42" />
+     <case name="Exercise #29" />
+     <case name="Exercise #27" />
+     <case name="Exercise #28" />
+     <case name="Exercise #72" />
+     <case name="Exercise #73" />
+     <case name="Exercise #70" />
+     <case name="Exercise #71" />
+     <case name="Exercise #36" />
+     <case name="Exercise #37" />
+     <case name="Exercise #34" />
+     <case name="Exercise #35" />
+     <case name="Exercise #32" />
+     <case name="Exercise #76" />
+     <case name="Exercise #33" />
+     <case name="Exercise #77" />
+     <case name="Exercise #30" />
+     <case name="Exercise #74" />
+     <case name="Exercise #31" />
+     <case name="Exercise #75" />
+</cb>
+<cb name="CB_csvImport">
+</cb>
+<cb name="user_caseBase">
+     <case name="User #19" />
+     <case name="User #18" />
+     <case name="User #17" />
+     <case name="User #16" />
+     <case name="User #15" />
+     <case name="User #14" />
+     <case name="User #12" />
+     <case name="User #11" />
+     <case name="User #10" />
+     <case name="User #31" />
+     <case name="User #30" />
+     <case name="User #29" />
+     <case name="User #28" />
+     <case name="User #27" />
+     <case name="User #26" />
+     <case name="User #25" />
+     <case name="User #24" />
+     <case name="User #0" />
+     <case name="User #23" />
+     <case name="User #1" />
+     <case name="User #22" />
+     <case name="User #21" />
+     <case name="User #20" />
+     <case name="User #4" />
+     <case name="User #5" />
+     <case name="User #2" />
+     <case name="User #3" />
+     <case name="User #8" />
+     <case name="User #9" />
+     <case name="User #6" />
+     <case name="User #7" />
+</cb>
+</Project>

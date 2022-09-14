@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/constraint_header_exercise_recycler_item"
+        android:background="@color/darkGrayRecycler"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:id="@+id/text_title_exercise_recycler_item"
+            app:layout_constraintStart_toStartOf="@id/constraint_header_exercise_recycler_item"
+            app:layout_constraintTop_toTopOf="@id/constraint_header_exercise_recycler_item"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:id="@+id/text_prime_muscle_exercise_recycler_item"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/constraint_header_exercise_recycler_item"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/constraint_content_exercise_recycler_item"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraint_header_exercise_recycler_item">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:id="@+id/text_rep_exercise_recycler_item"
+            app:layout_constraintStart_toStartOf="@id/constraint_content_exercise_recycler_item"
+            app:layout_constraintTop_toTopOf="@id/constraint_content_exercise_recycler_item"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:id="@+id/text_set_exercise_recycler_item"
+            android:layout_marginStart="15dp"
+            app:layout_constraintStart_toEndOf="@id/text_rep_exercise_recycler_item"
+            app:layout_constraintTop_toTopOf="@id/constraint_content_exercise_recycler_item"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

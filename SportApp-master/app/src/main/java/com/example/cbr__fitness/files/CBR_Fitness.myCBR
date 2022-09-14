@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="CBR_Fitness" author="Jobst-Julius Bartels" >
+<svs>
+  <sv name="_unknown_"/>
+  <sv name="_undefined_"/>
+  <sv name="_others_"/>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="_unknown_">
+</qsym>
+<qsym name="_undefined_">
+</qsym>
+<qsym name="_others_">
+</qsym>
+</fct>
+</svs>
+<model>
+  <concept name="User">
+    <desc name="duration" type="Symbol" mult="false" >
+      <symbol value="Long" />
+      <symbol value="VeryShort" />
+      <symbol value="VeryLong" />
+      <symbol value="Short" />
+      <symbol value="Middle" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Long">
+<csym name="VeryShort" sim="0.1"/>
+<csym name="VeryLong" sim="0.7"/>
+<csym name="Short" sim="0.2"/>
+<csym name="Middle" sim="0.7"/>
+</qsym>
+<qsym name="VeryShort">
+<csym name="Long" sim="0.1"/>
+<csym name="VeryLong" sim="0.1"/>
+<csym name="Short" sim="0.7"/>
+<csym name="Middle" sim="0.2"/>
+</qsym>
+<qsym name="VeryLong">
+<csym name="Long" sim="0.7"/>
+<csym name="VeryShort" sim="0.1"/>
+<csym name="Short" sim="0.2"/>
+<csym name="Middle" sim="0.5"/>
+</qsym>
+<qsym name="Short">
+<csym name="Long" sim="0.2"/>
+<csym name="VeryShort" sim="0.7"/>
+<csym name="VeryLong" sim="0.2"/>
+<csym name="Middle" sim="0.7"/>
+</qsym>
+<qsym name="Middle">
+<csym name="Long" sim="0.7"/>
+<csym name="VeryShort" sim="0.2"/>
+<csym name="VeryLong" sim="0.5"/>
+<csym name="Short" sim="0.7"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="bodyType" type="Symbol" mult="false" >
+      <symbol value="Ectomorph" />
+      <symbol value="Endomorph" />
+      <symbol value="Mesomorph" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Ectomorph">
+<csym name="Endomorph" sim="0.2"/>
+<csym name="Mesomorph" sim="0.4"/>
+</qsym>
+<qsym name="Endomorph">
+<csym name="Ectomorph" sim="0.2"/>
+<csym name="Mesomorph" sim="0.4"/>
+</qsym>
+<qsym name="Mesomorph">
+<csym name="Ectomorph" sim="0.4"/>
+<csym name="Endomorph" sim="0.4"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="gender" type="Symbol" mult="false" >
+      <symbol value="Male" />
+      <symbol value="Female" />
+      <symbol value="Diverse" />
+<fct name="genderFct" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Male">
+<csym name="Female" sim="0.2"/>
+<csym name="Diverse" sim="0.5"/>
+</qsym>
+<qsym name="Female">
+<csym name="Male" sim="0.2"/>
+<csym name="Diverse" sim="0.5"/>
+</qsym>
+<qsym name="Diverse">
+<csym name="Male" sim="0.5"/>
+<csym name="Female" sim="0.5"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="workType" type="Symbol" mult="false" >
+      <symbol value="Pro" />
+      <symbol value="Beginner" />
+      <symbol value="Advanced" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Pro">
+<csym name="Beginner" sim="0.3"/>
+<csym name="Advanced" sim="0.5"/>
+</qsym>
+<qsym name="Beginner">
+<csym name="Pro" sim="0.3"/>
+<csym name="Advanced" sim="0.5"/>
+</qsym>
+<qsym name="Advanced">
+<csym name="Pro" sim="0.5"/>
+<csym name="Beginner" sim="0.5"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="restriction" type="Symbol" mult="false" >
+      <symbol value="No" />
+      <symbol value="Yes" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="No">
+</qsym>
+<qsym name="Yes">
+</qsym>
+</fct>
+    </desc>
+    <desc name="plan" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="age" type="Symbol" mult="false" >
+      <symbol value="Teenager" />
+      <symbol value="Adult" />
+      <symbol value="Junior" />
+      <symbol value="Senior" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Teenager">
+<csym name="Adult" sim="0.5"/>
+<csym name="Junior" sim="0.2"/>
+<csym name="Senior" sim="0.1"/>
+</qsym>
+<qsym name="Adult">
+<csym name="Teenager" sim="0.5"/>
+<csym name="Junior" sim="0.1"/>
+<csym name="Senior" sim="0.2"/>
+</qsym>
+<qsym name="Junior">
+<csym name="Teenager" sim="0.2"/>
+<csym name="Adult" sim="0.1"/>
+<csym name="Senior" sim="0.2"/>
+</qsym>
+<qsym name="Senior">
+<csym name="Teenager" sim="0.1"/>
+<csym name="Adult" sim="0.2"/>
+<csym name="Junior" sim="0.2"/>
+</qsym>
+</fct>
+    </desc>
+    <amalgam name="default function" type="EUCLIDEAN" active="true" >
+      <entry name="duration" active="true" fct="default function" weight="1.0"/>
+      <entry name="bodyType" active="true" fct="default function" weight="1.0"/>
+      <entry name="gender" active="true" fct="default function" weight="1.0"/>
+      <entry name="workType" active="true" fct="default function" weight="1.0"/>
+      <entry name="restriction" active="true" fct="default function" weight="1.0"/>
+      <entry name="plan" active="true" fct="default function" weight="1.0"/>
+      <entry name="age" active="true" fct="default function" weight="1.0"/>
+    </amalgam>
+  </concept>
+  <concept name="Exercise">
+    <desc name="exType" type="Symbol" mult="false" >
+      <symbol value="Free" />
+      <symbol value="Machine" />
+      <symbol value="Bodyweight" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Free">
+</qsym>
+<qsym name="Machine">
+</qsym>
+<qsym name="Bodyweight">
+</qsym>
+</fct>
+    </desc>
+    <desc name="breakTime" type="Integer" min="0" max="600" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="muscle" type="Symbol" mult="false" >
+      <symbol value="Chest" />
+      <symbol value="Legs" />
+      <symbol value="Abs" />
+      <symbol value="Bicep" />
+      <symbol value="Shoulders" />
+      <symbol value="Back" />
+      <symbol value="Tricep" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Chest">
+</qsym>
+<qsym name="Legs">
+</qsym>
+<qsym name="Abs">
+</qsym>
+<qsym name="Bicep">
+</qsym>
+<qsym name="Shoulders">
+</qsym>
+<qsym name="Back">
+</qsym>
+<qsym name="Tricep">
+</qsym>
+</fct>
+    </desc>
+    <desc name="name" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="rating" type="Integer" min="0" max="5" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="weight" type="Integer" min="0" max="600" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="time" type="Integer" min="0" max="120" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="rep" type="Integer" min="0" max="100" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="setNumber" type="Integer" min="0" max="20" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <amalgam name="default function" type="EUCLIDEAN" active="true" >
+      <entry name="exType" active="true" fct="default function" weight="1.0"/>
+      <entry name="breakTime" active="true" fct="default function" weight="1.0"/>
+      <entry name="muscle" active="true" fct="default function" weight="1.0"/>
+      <entry name="name" active="true" fct="default function" weight="1.0"/>
+      <entry name="rating" active="true" fct="default function" weight="1.0"/>
+      <entry name="weight" active="true" fct="default function" weight="1.0"/>
+      <entry name="time" active="true" fct="default function" weight="1.0"/>
+      <entry name="rep" active="true" fct="default function" weight="1.0"/>
+      <entry name="setNumber" active="true" fct="default function" weight="1.0"/>
+    </amalgam>
+  </concept>
+  <concept name="Testing">
+    <amalgam name="default function" type="EUCLIDEAN" active="true" >
+    </amalgam>
+  </concept>
+</model>
+<hierarchy>
+  <fct name="default function" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="inheritanceDesc" sim="0.0" symm="true" >
+    <node name="Testing" sim="1.0" parent="inheritanceDesc" />
+    <node name="Exercise" sim="1.0" parent="inheritanceDesc" />
+    <node name="User" sim="1.0" parent="inheritanceDesc" />
+  </fct>
+</hierarchy>
+<cases no="78" cb="exercise_caseBase"/>
+<cases no="0" cb="CB_csvImport"/>
+<cases no="31" cb="user_caseBase"/>
+</Project>

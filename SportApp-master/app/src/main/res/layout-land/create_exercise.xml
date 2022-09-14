@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author Jobst-Julius Bartels -->
+<!--Layout-land für die Aktivität CreateExercise -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true" android:focusableInTouchMode="true"
+    tools:context=".activities.CreateExercise">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textHeadline"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="10dp"
+        android:text="Create Exercise"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtExName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="400dp"
+            android:layout_marginTop="75dp"
+            android:text="Name:"
+            android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editTxtExName"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtExName"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="..."
+        android:inputType="textPersonName"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtExMuscle"
+        android:layout_below="@id/editTxtExName"
+        android:layout_marginLeft="400dp"
+        android:text="Muscle type:"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400dp"
+        android:id="@+id/spinnerExMuscle"
+        android:spinnerMode="dropdown"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/txtExMuscle"
+        android:background="@android:drawable/btn_dropdown"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtExSetNumber"
+        android:layout_below="@+id/spinnerExMuscle"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:text="Number of sets:"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/editTxtExSetNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtExSetNumber"
+        android:ems="10"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:hint=".."
+        android:maxLength="2"
+        android:maxLines="1"
+        android:inputType="number"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textExRep"
+        android:layout_below="@+id/editTxtExSetNumber"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:text="Repetitions:"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/editTxtExRep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textExRep"
+        android:ems="10"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:hint=".."
+        android:maxLength="2"
+        android:maxLines="1"
+        android:inputType="number"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textExBreak"
+        android:layout_below="@+id/editTxtExRep"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:text="Time beetwen sets(sec.):"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/editTxtExBreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textExBreak"
+        android:ems="10"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:hint="..."
+        android:maxLength="3"
+        android:maxLines="1"
+        android:inputType="number"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textExWeight"
+        android:layout_below="@+id/editTxtExBreak"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:text="Weight(kg):"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/editTxtExWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textExWeight"
+        android:ems="10"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:hint="..."
+        android:maxLength="3"
+        android:maxLines="1"
+        android:inputType="number"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textExTime"
+        android:layout_below="@+id/editTxtExWeight"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:text="Total time(min.):"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/editTxtExTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textExTime"
+        android:ems="10"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:hint="..."
+        android:maxLength="3"
+        android:maxLines="1"
+        android:inputType="number"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textExType"
+        android:layout_below="@+id/editTxtExTime"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:text="Type of Exercise:"
+        android:textSize="25sp"/>
+    <RadioGroup
+        android:id="@+id/rgExType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textExType"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbMachine"
+            android:text="Machine"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/textExType"/>
+        <RadioButton
+            android:id="@+id/rbBodyweight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rbMachine"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:text="Bodyweight" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbFree"
+            android:text="Free"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/rbBodyweight"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textExRating"
+        android:layout_below="@+id/rgExType"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="10dp"
+        android:text="Exercise rating (1-5 stars):"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/editTextExRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textExRating"
+        android:ems="10"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="5dp"
+        android:hint=".."
+        android:inputType="number"
+        android:maxLength="1"
+        android:digits="12345"
+        android:maxLines="1"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/createExButton"
+        android:layout_below="@id/editTextExRating"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="30dp"
+        android:text="Create"/>
+    <ImageButton
+        android:id="@+id/imgButtonLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:scaleType="centerInside"
+        android:adjustViewBounds="true"
+        android:padding="20dp"
+        app:srcCompat="@drawable/cbrfitnesslogo" />
+    </RelativeLayout>
+</ScrollView>

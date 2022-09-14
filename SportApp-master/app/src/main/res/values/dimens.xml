@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="min_auto_text_size">15sp</dimen>
+    <dimen name="min_auto_text_size_small">12sp</dimen>
+    <dimen name="max_auto_text_size_small">20sp</dimen>
+    <dimen name="max_auto_text_size">22sp</dimen>
+    <dimen name="target_text_size">25sp</dimen>
+    <dimen name="target_text_size_small">18sp</dimen>
+</resources>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @author Jobst-Julius Bartels -->
+<!--Layout für die Aktivität CreateUser -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/scroll_create_user"
+    tools:context=".activities.CreateUser"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textHeadline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:text="@string/create_user"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/username"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textHeadline" />
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:ems="10"
+            android:hint="@string/username_placeholder"
+            android:inputType="textPersonName"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textUsername"
+            tools:ignore="Autofill"/>
+
+        <TextView
+            android:id="@+id/textPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/password"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextUsername" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:ems="10"
+            android:hint="@string/password_placeholder"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textPassword"
+            tools:ignore="Autofill"/>
+
+        <TextView
+            android:id="@+id/textAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/age"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editPassword" />
+
+        <EditText
+            android:id="@+id/editAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:hint="@string/age_placeholder"
+            android:inputType="number"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/textAge"
+            app:layout_constraintStart_toStartOf="@+id/textAge"
+            app:layout_constraintTop_toBottomOf="@+id/textAge"
+            tools:ignore="Autofill"/>
+
+        <TextView
+            android:id="@+id/textGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/gender"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editAge" />
+
+        <RadioGroup
+            android:id="@+id/rgGender"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/textGender"
+            app:layout_constraintStart_toStartOf="@+id/textGender"
+            app:layout_constraintTop_toBottomOf="@+id/textGender">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male" />
+
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female" />
+
+            <RadioButton
+                android:id="@+id/rbDiverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/diverse" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textWorkoutType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/workout_type"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rgGender" />
+
+        <RadioGroup
+            android:id="@+id/rgWorkoutType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/textWorkoutType"
+            app:layout_constraintStart_toStartOf="@+id/textWorkoutType"
+            app:layout_constraintTop_toBottomOf="@+id/textWorkoutType">
+
+            <RadioButton
+                android:id="@+id/rbBeginner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/beginner" />
+
+            <RadioButton
+                android:id="@+id/rbAdvanced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/advanced" />
+
+            <RadioButton
+                android:id="@+id/rbPro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pro" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textBodyWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/body_weight"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rgWorkoutType" />
+
+        <EditText
+            android:id="@+id/editBodyWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:hint="@string/weight_placeholder"
+            android:inputType="number"
+            android:maxLength="3"
+            android:maxLines="1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/textBodyWeight"
+            app:layout_constraintStart_toStartOf="@+id/textBodyWeight"
+            app:layout_constraintTop_toBottomOf="@+id/textBodyWeight"
+            tools:ignore="Autofill">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/textBodyHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/body_height"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editBodyWeight" />
+
+        <EditText
+            android:id="@+id/editBodyHeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:hint="@string/placeholder"
+            android:inputType="number"
+            android:maxLength="3"
+            android:maxLines="1"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/textBodyHeight"
+            app:layout_constraintStart_toStartOf="@+id/textBodyHeight"
+            app:layout_constraintTop_toBottomOf="@+id/textBodyHeight"
+            tools:ignore="Autofill">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/textRes"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/physical_restrictions"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editBodyHeight" />
+
+        <androidx.constraintlayout.helper.widget.Flow
+            android:id="@+id/resFlowBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flow_horizontalGap="15dp"
+            app:flow_horizontalStyle="packed"
+            app:flow_verticalGap="15dp"
+            app:flow_verticalStyle="packed"
+            app:flow_wrapMode="chain"
+            app:layout_constraintEnd_toEndOf="@+id/textRes"
+            app:layout_constraintStart_toStartOf="@+id/textRes"
+            app:layout_constraintTop_toBottomOf="@+id/textRes" />
+
+        <TextView
+            android:id="@+id/text_label_choose_equipment_create_user"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/equipment"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/resFlowBox" />
+
+        <androidx.constraintlayout.helper.widget.Flow
+            android:id="@+id/flow_choose_equipment_create_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:flow_horizontalGap="15dp"
+            app:flow_horizontalStyle="packed"
+            app:flow_verticalGap="15dp"
+            app:flow_verticalStyle="packed"
+            app:flow_wrapMode="chain"
+            app:layout_constraintEnd_toEndOf="@+id/text_label_choose_equipment_create_user"
+            app:layout_constraintStart_toStartOf="@+id/text_label_choose_equipment_create_user"
+            app:layout_constraintTop_toBottomOf="@+id/text_label_choose_equipment_create_user" />
+
+
+        <Button
+            android:id="@+id/createUserButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/create"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/flow_choose_equipment_create_user" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
